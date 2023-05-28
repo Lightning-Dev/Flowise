@@ -121,7 +121,7 @@ const getConfigExamplesForCurl = (configData, bodyType) => {
 
 const embedCode = (chatflowid) => {
     return `<script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed@latest/dist/web.js"
+    import Chatbot from "https://cdn.jsdelivr.net/gh/Lightning-Dev/ChatEmbed@main/web.js"
     Chatbot.init({
         chatflowid: "${chatflowid}",
         apiHost: "${baseURL}",
